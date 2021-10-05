@@ -3,6 +3,7 @@ my first discord bot :3
 
 
 ### setup
+#### warning the exe files are neded for music
 curently can be hosted windows only <br>
 
 download the repo files <br>
