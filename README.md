@@ -4,7 +4,7 @@ my first discord bot :3
 ### functions
 ```
 - misc
--- repeat ; repeta a mesage
+-- repeat ; repeats a mesage
 -- short_url ; shorts the given url
 
 - fun
