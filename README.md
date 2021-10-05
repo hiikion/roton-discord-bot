@@ -1,6 +1,15 @@
 # roton-discord-bot
 my first discord bot :3
 
+
+### setup
+curently can be hosted windows only <br>
+
+download the repo files <br>
+enter your bot token in to the `src/config.py` in `token` <br>
+change some other setings if you want :-) <br>
+run the `run.py` file <br>
+
 ### functions
 ```
 - misc
