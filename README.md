@@ -1,7 +1,7 @@
 # roton-discord-bot
 my first discord bot :3
 
-### funnctions
+### functions
 ```
 - misc
 -- repeat ; repeta a mesage
