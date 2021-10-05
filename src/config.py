@@ -1,6 +1,3 @@
-from discord import activity
-
-
 config = dict(
     token = '', #bot token
     prefix = '//', #bot prefix
