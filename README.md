@@ -23,7 +23,7 @@ run the `run.py` file <br>
 -- r_anime ; sends a random anime pic/gif/text of the given category
 
 - music
--- play ; plays a given song, flags: -s (search, example: //play -s Exyl - nice logog) -l (link, example: //play -l https://www.youtube.com/watch?v=vQd1xc_RYPs)
+-- play ; plays a given song, flags: -s (search, example: //play -s Exyl - nice logo) -l (link, example: //play -l https://www.youtube.com/watch?v=vQd1xc_RYPs)
 -- pause ; pauses current song 
 -- resume ; resumes song if paused
 -- stop ; stops the current song
