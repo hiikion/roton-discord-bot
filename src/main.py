@@ -18,7 +18,7 @@ async def on_connect():
 
 @bot.command()
 async def r_animal(ctx, text):
-    response = src.features.random_animal(animal=text)
+    response = src.utils.random_animal(animal=text)
     if response == 'host not responding or invalid animal':
         await ctx.send(response)
     else:
@@ -29,7 +29,7 @@ async def r_animal(ctx, text):
 @bot.command()
 async def r_anime(ctx, text):
     if text == 'quoute':
-        response = src.features.random_anime_quote()
+        response = src.utils.random_anime_quote()
         if response == 'error while getting the quoute':
             await ctx.send(response)
         else:
@@ -37,7 +37,7 @@ async def r_anime(ctx, text):
             embed.set_footer(text = 'characther: ' + response['characther'] + ',\nanime: ' + response['anime']) 
             await ctx.send(embed = embed)
     else:
-        response = src.features.r_anime(category=text)
+        response = src.utils.r_anime(category=text)
         if response == 'host not responding or invalid category':
             await ctx.send(response)
         else:
@@ -51,7 +51,7 @@ async def repeat(ctx, text):
 
 @bot.command()
 async def short_url(ctx, text):
-    response = src.features.shorten_url(text)
+    response = src.utils.shorten_url(text)
     if response == 'invalid url format':
         await ctx.send(response)
     else:
@@ -61,7 +61,7 @@ async def short_url(ctx, text):
 
 @bot.command()
 async def insult(ctx, text):
-    Response = src.features.get_insult(text)
+    Response = src.utils.get_insult(text)
     if Response == 'host not responding or invalid lang':
         await ctx.send(Response)
     else:
